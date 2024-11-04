@@ -204,7 +204,9 @@ o	Both distributions overlap significantly, suggesting that there might not be a
 
 # Conclusion
 The analysis of the heart disease dataset has provided valuable insights into the factors associated with heart disease. By exploring the distribution of key features and their relationships, we have identified potential risk factors and areas for further investigation.
+
 **Key Findings:**
+
 **•	Demographic Factors**: Age and gender can influence heart disease risk.
 
 **•	Cardiovascular Factors:** Elevated blood pressure, high cholesterol levels, and abnormal heart rate patterns are significant risk factors.
