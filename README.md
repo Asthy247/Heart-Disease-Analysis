@@ -3,9 +3,8 @@ This project explores a heart disease dataset sourced from Kaggle (https://www.k
 # Data Acquisition and Cleaning
 The data was loaded from a CSV file named "heart disease dataset.csv" using pandas.read_csv(). Initial exploration revealed duplicate entries (302 duplicates were identified). These duplicates were removed using the drop_duplicates() method.
 # Data Exploration
-•**	Dataset Shape:** The dataset contains 302 rows (patients) and 14 columns (features).
-
-**•	Data Types:** Most features are integers representing categorical data (e.g., sex, chest pain type). One feature (oldpeak) is a float representing a continuous value.
+The dataset contains 302 rows (patients) and 14 columns (features).
+Most features are integers representing categorical data (e.g., sex, chest pain type). One feature (oldpeak) is a float representing a continuous value.
 
 # Attribute Information:
 1.	age
@@ -44,6 +43,7 @@ The describe() method provided summary statistics for each feature, including me
 
 # 1.	Correlation Matrix
 Calculating correlations between features to identify which features are most strongly associated with heart disease.
+![image](https://github.com/user-attachments/assets/cd9aae38-055a-459c-a8d1-fb13820d8391)
 
 **Positive Correlations:**
 **•	Target with cp (Chest Pain Type):** 
@@ -120,7 +120,7 @@ The distribution of ages appears to be **approximately normally distributed**, w
 **Interpretation of the Bar Plot:**
 The bar plot visualizes the distribution of different chest pain types (cp) among the patients.
 **Key Observations:**
-**•	Dominance of Typical Angina: **
+**•**	Dominance of Typical Angina: ****
 The category "typical angina" has the highest count, indicating that a significant portion of the patients experience this type of chest pain.
 
 **•	Lower Frequencies for Other Types: **
@@ -215,8 +215,11 @@ The analysis of the heart disease dataset has provided valuable insights into th
 
 # Recommendations 
 **Early Detection and Prevention:**
+
 o	**Regular Health Checkups:** Encourage regular checkups to monitor blood pressure, cholesterol levels, and heart rate.
 
+
 o**	Healthy Lifestyle**: Promote a healthy lifestyle, including a balanced diet, regular exercise, and stress management.
+
 
 o**	Smoking Cessation:** Advise individuals to quit smoking.
